@@ -1,0 +1,94 @@
+body {
+    background-color: #0D262D;
+    color: white;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h1 {
+    animation: float 3s ease-in-out infinite; /* Animação flutuante */
+    margin-top: 2em;
+    font-size: 6rem;
+    text-align: center;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0); 
+    }
+    50% {
+        transform: translateY(-10px); 
+    }
+    100% {
+        transform: translateY(0); 
+    }
+}
+
+.instructions-list {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    font-size: 1rem; 
+}
+
+.instructions-list li {
+    background-color: #2ECC71; 
+    color: #0D262D; 
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-align: left; 
+}
+
+.instructions-list li:hover {
+    background-color: #27AE60; 
+    color: white; 
+    cursor: pointer;
+}
+
+.modal-footer {
+    display: flex; 
+    justify-content: center; 
+}
+  
+.btn-custom {
+    background-color: #2ECC71;
+    color: #0D262D;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #27AE60;
+}
+
+footer {
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #47f304;
+}
+
+footer a:hover {
+    color: #b3f19a;
+}
+
+.btn-music {
+    background-color: #3498DB;
+    color: white;
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  .btn-music:hover {
+    background-color: #2980B9;
+  }
